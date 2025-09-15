@@ -11,7 +11,7 @@ Tomando como ponto de partida o modelo feito pela lecionante do curso, foram sol
 
 ## Soluções Propostas
 
-1) Criei as entidades Cliente_PJ e Cliente_PF, ambas vinculadas á entidade Cliente, então coloquei a foreign key de Cliente nas suas duas derivações, garantindo assim, que não será possível utilizar as duas entidades simultaneamente.
+1) Criei as entidades Cliente_PJ e Cliente_PF, ambas vinculadas á entidade Cliente, coloquei então a sua Foreign Key nas entidades que dela derivam.
 
 2) Criei a entidade Forma de Pagamento, sendo esta ligada ás entidades Pedido e Cliente, com cardinalidades 1-N e N-1, respectivamente. A tabela Pedido recebe a Foreign key de Forma de Pagamento, como é de se esperar, e esta última recebe a foreign key de Cliente.
 
